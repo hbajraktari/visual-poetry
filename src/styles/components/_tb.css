@@ -1,0 +1,32 @@
+.trusted-sec{
+    height: 150px;
+    padding: 30px 90px;
+    background: #2d4e2e;
+}
+
+  
+  /* .trusted-sec h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 40px;
+  } */
+  
+  .trusted-sec .row-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 30px;
+  }
+  
+  .trusted-sec img {
+    width: 80px;
+    height: auto;
+    transition: 0.3s ease; /* Add a hover effect */
+  }
+  
+  .trusted-sec img:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+  }
