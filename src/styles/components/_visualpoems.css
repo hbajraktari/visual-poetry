@@ -1,0 +1,44 @@
+.visual-poems-sec{
+    background: linear-gradient(180deg, #fefcf8, #dfece6);
+    height: auto;
+    padding: 60px 90px;
+}
+
+.visual-poems-sec h1{
+    text-align: left;
+    margin-bottom: 60px;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: "Newsreader", sans-serif;
+    color: #2d4e2e;
+}
+
+.visual-poems-sec .left-side {
+    max-width: 500px;
+    line-height: 2;
+    margin-right: auto;
+    color: #212121;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.vp-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.vp-visual1{
+    width: 450px;
+    height: 450px;
+}
+
+.vp-visual-icons{
+    width: 40px;
+    height: 40px;
+    cursor: pointer; 
+    margin-right: 30px;
+    vertical-align: middle;
+    margin-top: 20px;
+}

@@ -1,0 +1,75 @@
+.sign-up-sec {
+  background: linear-gradient(180deg, #fefcf8, #dfece6);
+  height: 100vh;
+  padding: 80px 90px;
+  text-align: center;
+}
+
+.sign-up-sec h1 {
+  font-family: "Newsreader", serif;
+  font-size: 40px;
+  color: #3f3f3f;
+  margin-bottom: 50px;
+}
+
+.signup-form {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.signup-input {
+  width: 100%;
+  padding: 15px;
+  border: 3px solid var(--vv-primary-green);
+  background-color: #d9d9d9;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+}
+
+.google-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d9d9d9;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #2d4e2e;
+  cursor: pointer;
+  border: 3px solid var(--vv-primary-green);
+  padding: 15px 30px;
+  transition: 0.3s ease;
+}
+
+.google-button:hover {
+  background-color: var(--vv-primary-green);
+  border-radius: 15px;
+}
+
+.google-button img {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.google-button:hover {
+  background-color: #c2c2c2;
+}
+
+.sign-up-sec p {
+  margin-top: 23px;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+.sign-up-sec p a {
+  font-weight: 600;
+  color: #2d4e2e;
+  text-decoration: none;
+}
+
+.sign-up-sec p a:hover {
+  text-decoration: underline;
+}

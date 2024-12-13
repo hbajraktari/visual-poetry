@@ -1,0 +1,135 @@
+.footer {
+    background-color: #2d4e2e;
+    color: #e6e6e6;
+    font-family: Arial, sans-serif;
+    padding: 30px 90px;
+    height: 420px auto;
+  }
+
+  
+  .footer-content {
+    font-family: "Newsreader", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  
+  .footer-column {
+    min-width: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-column h5 {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 40px;
+    font-size: 16px; 
+  }
+  
+  .footer-column ul li:hover {
+    text-decoration: underline #c1c0c0 2px;
+    text-underline-offset: 10px;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    border-top: 1px solid #678d58;
+    color: #e6e6e6;
+    padding-top: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  
+  .footer-links {
+    display: flex; 
+    gap: 30px; 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .fter-logo{
+    width: 300px;
+    height: 60px;
+  }
+  
+  .footer-links li {
+    display: flex; 
+    align-items: center; 
+    gap: 5px; 
+  }
+  
+  .footer-links li:hover {
+    text-decoration: underline #fff 2px;
+    text-underline-offset: 10px;
+  }
+  
+  @media (max-width: 480px) {
+    .footer {
+      padding: 20px;
+    }
+  
+    .footer-content {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 30px;
+    }
+  
+    .footer-column {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .footer-bottom {
+      flex-direction: column;
+      text-align: center;
+      gap: 15px;
+      padding-top: 20px;
+    }
+  
+    .footer-links {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .footer-links li {
+      justify-content: center;
+    }
+  
+    .footer-bottom {
+      flex-direction: column;
+      gap: 15px;
+      font-size: 12px;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .footer-content {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 30px;
+    }
+  
+    .footer-column {
+      width: 45%;
+    }
+  }
+  

@@ -1,0 +1,85 @@
+.hero-sec {
+  background: linear-gradient(180deg, #fefcf8, #dfece6);
+  height: 100vh;
+}
+
+.hero-s {
+  padding: 90px 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-s .context {
+  max-width: 600px;
+}
+
+.hero-s .context p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.hero-s .context h1 {
+  font-size: 62px;
+  color: #212121;
+  font-family: "Newsreader", serif;
+  line-height: 1.4;
+  margin-bottom: 30px;
+}
+
+.hero-s .context h1 span {
+  color: #2d4e2e;
+  position: relative;
+}
+
+.hero-s .underline-design img {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  max-width: 80px;
+}
+
+.main-btn {
+  padding: 12px 30px;
+  background-color: #678d58;
+  color: #fff;
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  transition: 0.3s ease;
+}
+
+.main-btn:hover {
+  background-color: #2d4e2e;
+  border-radius: 15px;
+}
+
+.hero-s .image-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-s .image-container img {
+  margin-right: 70px;
+  height: 450px;
+}
+
+@media (max-width: 480px) {
+
+  .hero-sec{
+    height: auto;
+  }
+
+  .hero-s{
+    padding: 30px 50px;
+  }
+
+  .hero-s .image-container{
+    display: none;
+  }
+}

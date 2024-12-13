@@ -1,0 +1,68 @@
+.mission-sec {
+  background: linear-gradient(180deg, #dfece6, #fefcf8);
+  height: 600px;
+  padding: 70px 90px;
+}
+
+.mission-sec h2 {
+  text-align: left;
+  margin-bottom: 40px;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: "Newsreader", sans-serif;
+  color: #2d4e2e;
+}
+
+.mission-container {
+  display: flex;
+  margin-bottom: 50px;
+  background-color: #f9f9f9;
+}
+
+.mission-container h1 {
+  max-width: 660px;
+  margin-left: auto;
+  color: #212121;
+  text-align: right;
+  align-items: center;
+  margin-top: 230px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.mission-container img {
+  /* border-radius: 30px; */
+  height: 350px;
+}
+
+.ms-imgs {
+  width: 620px;
+  height: 400px;
+}
+
+.ms-text {
+  font-family: "Newsreader", sans-serif;
+  font-size: 31px;
+  font-weight: 500;
+  color: #2d4e2e;
+}
+
+.team-container {
+  display: flex;
+}
+
+.team-container h1 {
+  max-width: 600px;
+  margin-right: auto;
+  color: #212121;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.team-container img {
+  border-radius: 30px;
+  height: 350px;
+}
