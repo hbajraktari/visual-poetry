@@ -26,7 +26,8 @@
   text-align: right;
   align-items: center;
   margin-top: 230px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Newsreader", sans-serif;
+  line-height: 1.6;
   font-weight: 400;
   font-size: 20px;
 }
@@ -42,8 +43,8 @@
 }
 
 .ms-text {
-  font-family: "Newsreader", sans-serif;
-  font-size: 31px;
+  font-family: "Newsreader";
+  font-size: 30px;
   font-weight: 500;
   color: #2d4e2e;
 }
@@ -57,7 +58,7 @@
   margin-right: auto;
   color: #212121;
   text-align: left;
-  font-family: "Roboto", sans-serif;
+  font-family: "Newsreader", sans-serif;
   font-weight: 400;
   font-size: 20px;
 }

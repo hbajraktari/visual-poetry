@@ -24,6 +24,17 @@
     font-size: 20px;
 }
 
+.visual-poems-sec .left-side h2{
+    font-family: 'Italianno';
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.visual-poems-sec .left-side p {
+    font-family: 'Newsreader';
+    line-height: 2.3;
+}
+
 .vp-container{
     display: flex;
     margin-bottom: 100px;

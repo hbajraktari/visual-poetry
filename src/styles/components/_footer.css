@@ -22,8 +22,9 @@
   }
   
   .footer-column h5 {
+    font-family: 'Italianno';
     font-weight: 500;
-    font-size: 16px;
+    font-size: 30px;
     margin-bottom: 30px;
   }
   
@@ -39,19 +40,20 @@
   }
   
   .footer-column ul li:hover {
-    text-decoration: underline #c1c0c0 2px;
+    text-decoration: underline #678d58 2px;
     text-underline-offset: 10px;
   }
   
   .footer-bottom {
+    font-family: 'Italianno';
+    font-weight: 500;
+    font-size: 30px;
     display: flex;
     justify-content: space-between; 
     align-items: center; 
     border-top: 1px solid #678d58;
     color: #e6e6e6;
     padding-top: 30px;
-    font-weight: 400;
-    font-size: 16px;
     max-width: 1300px;
     margin: 0 auto;
   }
