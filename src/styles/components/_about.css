@@ -7,16 +7,16 @@
 .who-we-are h2 {
     padding: 20px;
   text-align: left;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   font-size: 50px;
   font-weight: 600;
-  font-family: "Newsreader", sans-serif;
+  font-family: "Newsreader";
   color: #2d4e2e;
 }
 
 .ab-text {
-  font-family: "Newsreader", sans-serif;
-  font-size: 31px;
+  font-family: "Newsreader";
+  font-size: 30px;
   font-weight: 500;
   color: #2d4e2e;
 }
@@ -32,7 +32,7 @@
   padding: 20px;
   font-size: 20px;
   line-height: 1.8;
-  color: #555;
+  color: #212121;
   border-left: 1px solid #ccc;
 }
 

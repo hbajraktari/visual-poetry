@@ -8,6 +8,7 @@ import AboutSec from "../components/AboutSec";
 import VisualPoems from "../components/VisualPoems";
 import Mission from "../components/Mission";
 import Footer from "../components/Footer";
+import Contact from "../components/Contact";
 
 function Home() {
   return (
@@ -38,6 +39,7 @@ function Home() {
     <AboutSec />
     <Mission />
     <VisualPoems />
+    <Contact />
     <Footer />
     </div>
   );
