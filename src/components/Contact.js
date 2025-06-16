@@ -6,7 +6,7 @@ function Contact() {
         <div className='contact'>
         <div className="contact-container">
         <p className="question">Have a question?</p>
-        <p className="answer">There is an answer</p>
+        <p className="answer">There is an answer.</p>
         <p className="contact-link">
           <span>Contact Us</span>
           <span className="underline"></span>

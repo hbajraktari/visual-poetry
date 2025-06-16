@@ -18,15 +18,17 @@
   
   .question {
     color: #212121;
-    font-size: 55px;
-    font-family: 'Italianno';
+    font-size: 45px;
+    font-family: "Newsreader", sans-serif;
+    font-weight: 500;
     margin-bottom: 10px;
   }
   
   .answer {
     color: #212121;
-    font-size: 50px;
-    font-family: 'Italianno';
+    font-size: 30px;
+    font-family: "Newsreader", sans-serif;
+    font-weight: 500;
     margin-bottom: 20px;
   }
   
