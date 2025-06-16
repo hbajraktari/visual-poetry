@@ -11,8 +11,8 @@ function NavBar() {
             <img src={images.logo} alt="Company Logo" className="logo"/>
             </Link>
             <ul className='navbar-list'>
-                <li className='btn btn-clear'><Link to="/create-poem">Create Poem</Link></li>
-                <li className='btn btn-color'><Link to="/sign-up">Sign Up</Link></li>
+                <li className='btn btn-clear'><Link to="/create-poem">CREATE POEM</Link></li>
+                <li className='btn btn-color'><Link to="/sign-up">SIGN UP</Link></li>
             </ul>
         </nav>
     );

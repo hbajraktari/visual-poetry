@@ -1,11 +1,11 @@
 .who-we-are {
   background: linear-gradient(180deg, #fefcf8, #fefcf8, #dfece6);
-  padding: 70px 70px;
-  height: 500px;
+  padding: 50px 20px;
+  height: auto;
 }
 
 .who-we-are h2 {
-    padding: 20px;
+  padding: 10px;
   text-align: left;
   margin-bottom: 10px;
   font-size: 50px;
@@ -23,20 +23,66 @@
 
 .content {
   display: flex;
-  justify-content: space-between;
-  gap: 1rem;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .column {
-  flex: 1;
-  padding: 20px;
-  font-size: 20px;
-  line-height: 1.8;
-  color: #212121;
-  border-left: 1px solid #ccc;
+  padding: 10px;
+  font-size: 18px;
+  line-height: 1.6;
+  border-left: none;
 }
 
-.column:first-child {
-  border-left: none;
-  padding-right: 40px;
+@media (min-width: 768px) {
+  .who-we-are {
+    padding: 70px 40px;
+  }
+
+  .who-we-are h2 {
+    font-size: 45px;
+  }
+
+  .ab-text {
+    font-size: 26px;
+  }
+
+  .content {
+    flex-direction: row;
+  }
+
+  .column {
+    flex: 1;
+    border-left: 1px solid #ccc;
+    padding: 20px;
+  }
+
+  .column:first-child {
+    border-left: none;
+    padding-right: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .who-we-are {
+    padding: 70px 70px;
+  }
+
+  .who-we-are h2 {
+    font-size: 50px;
+  }
+
+  .ab-text {
+    font-size: 30px;
+  }
+
+  .column {
+    padding: 20px;
+    font-size: 20px;
+    line-height: 1.8;
+  }
+
+  .column:first-child {
+    padding-right: 40px;
+  }
 }

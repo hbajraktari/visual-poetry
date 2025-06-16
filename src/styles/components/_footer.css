@@ -22,10 +22,11 @@
   }
   
   .footer-column h5 {
-    font-family: 'Italianno';
+    font-family: "Newsreader", sans-serif;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 30px;
+    padding-top: 20px;
   }
   
   .footer-column ul {
@@ -53,7 +54,7 @@
     align-items: center; 
     border-top: 1px solid #678d58;
     color: #e6e6e6;
-    padding-top: 30px;
+    padding-top: 50px;
     max-width: 1300px;
     margin: 0 auto;
   }
@@ -78,7 +79,7 @@
   }
   
   .footer-links li:hover {
-    text-decoration: underline #fff 2px;
+    text-decoration: underline #678d58 2px;
     text-underline-offset: 10px;
   }
   
